@@ -1,0 +1,89 @@
+/* Global */
+.title {
+  color: #292929;
+  font-size: 20px;
+  margin: 0;
+}
+.subtitle {
+  font-size: 17px;
+  color: #313131;
+  margin: 0;
+}
+.date-time {
+  font-size: 13px;
+  color: #656565;
+  font-weight: 400;
+}
+.text {
+  font-size: 14px;
+  letter-spacing: 0.4s;
+  color: #292929;
+}
+
+/* Global */
+
+.timeline-item .item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timeline-item .btn-toggle {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+.timeline-item .btn-toggle i {
+  font-size: 20px;
+  color: #787878;
+}
+.timeline-item .btn-toggle:hover {
+  color: #008080;
+}
+
+.timeline-item .btn-add {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: black !important;
+  transition: color 0.3s ease-in-out;
+}
+.timeline-item .btn-add i {
+  color: #fff;
+  margin-top: 2px;
+  font-size: 10px;
+}
+.timeline-item .btn-add:hover {
+  background-color: #008080 !important;
+}
+
+/* =============== */
+
+.timeline-item .item-list {
+  margin-bottom: 20px;
+}
+
+.timeline-item .item-list .list-icon {
+  height: 48px;
+  min-width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: rgb(199, 198, 198);
+  position: relative;
+}
+
+.timeline-item .item-list .list-icon::before {
+  content: "";
+  height: 50px;
+  width: 2.4px;
+  border-radius: 5px;
+  background-color: rgb(172, 172, 172);
+  position: absolute;
+  top: 52px;
+}
