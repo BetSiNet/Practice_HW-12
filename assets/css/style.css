@@ -42,20 +42,20 @@
   color: #008080;
 }
 
+/* this */
 .timeline-item .btn-add {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: black !important;
   transition: color 0.3s ease-in-out;
 }
 .timeline-item .btn-add i {
   color: #fff;
-  margin-top: 2px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .timeline-item .btn-add:hover {
   background-color: #008080 !important;
